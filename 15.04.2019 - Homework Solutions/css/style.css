@@ -1,0 +1,19 @@
+*{
+    margin: 0;
+}
+
+body{
+    background-color: #E0E1E1;
+    height: 5000px;
+    /* color: white; */
+}
+
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+a{
+    text-decoration: none;
+}
+
