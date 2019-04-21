@@ -10,11 +10,22 @@
         crossorigin="anonymous">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf"
         crossorigin="anonymous">
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/style2.css">
+
+    <style>
+        /* .color
+        {
+            background-color: yellow;
+        }
+        .border
+        {
+            border: 2px solid black;
+        } */
+    </style>
 </head>
 
 <body>
-    <div class="container">
+    <!-- <div class="container">
 
         <div class="row mt-5">
             <div class="col">
@@ -57,9 +68,132 @@
             </div>
         </div>
 
+    </div> -->
+
+
+    <!-- <div class="container">
+        <div class="row">
+            <div class="col">
+                <div class="upload-div" style="cursor:pointer">Upload your files</div>
+                <input type="file" multiple class="input mt-5" style="display:block">
+            </div>
+        </div>
+        <div class="row mt-5">
+            <div class="col">
+                <div class="drop-zone border" style="width:300px;height:300px;"></div>
+            </div>
+        </div>
+    </div> -->
+
+    <div class="container">
+        <div class="row mt-5">
+            <div class="col">
+                <ul class="s-type list-unstyled d-flex">
+                    <li class="active">All</li>
+                    <li data-id="cities">Cities</li>
+                    <li>Nature</li>
+                    <li>Industrial</li>
+                    <li>Daylight</li>
+                    <li>Nightscape</li>
+                </ul>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col">
+                <ul class="s-details list-unstyled d-flex">
+                    <li class="mr-3">Shuffle</li>
+                    <li>Asc</li>
+                    <li>Desc</li>
+                </ul>
+            </div>
+        </div>
+        <div class="row all">
+            <div class="col">
+                <div class="row first">
+                    <div class="col">
+                        <div class="s-inner position-relative">
+                            <img src="img/img.jpeg" class="cities img-fluid" data-id="cities">
+                            <div class="s-number position-absolute text-center text-white">1</div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="s-inner position-relative">
+                            <img src="img/img.jpeg" class="img-fluid">
+                            <div class="s-number position-absolute text-center text-white">2</div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="s-inner position-relative">
+                            <img src="img/img.jpeg" class="cities img-fluid" data-id="cities">
+                            <div class="s-number position-absolute text-center text-white">3</div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="s-inner position-relative">
+                            <img src="img/img.jpeg" class="img-fluid">
+                            <div class="s-number position-absolute text-center text-white">4</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row mt-3">
+                    <div class="col">
+                        <div class="s-inner position-relative">
+                            <img src="img/img.jpeg" class="img-fluid">
+                            <div class="s-number position-absolute text-center text-white">5</div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="s-inner position-relative">
+                            <img src="img/img.jpeg" class="cities img-fluid" data-id="cities">
+                            <div class="s-number position-absolute text-center text-white">6</div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="s-inner position-relative">
+                            <img src="img/img.jpeg" class="cities img-fluid" data-id="cities">
+                            <div class="s-number position-absolute text-center text-white">7</div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="s-inner position-relative">
+                            <img src="img/img.jpeg" class="img-fluid">
+                            <div class="s-number position-absolute text-center text-white">8</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row mt-3">
+                    <div class="col">
+                        <div class="s-inner position-relative">
+                            <img src="img/img.jpeg" class="img-fluid">
+                            <div class="s-number position-absolute text-center text-white">9</div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="s-inner position-relative">
+                            <img src="img/img.jpeg" class="img-fluid">
+                            <div class="s-number position-absolute text-center text-white">10</div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="s-inner position-relative">
+                            <img src="img/img.jpeg" class="img-fluid">
+                            <div class="s-number position-absolute text-center text-white">11</div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="s-inner position-relative">
+                            <img src="img/img.jpeg" class="img-fluid">
+                            <div class="s-number position-absolute text-center text-white">12</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
     </div>
 
-    <script src="lib/main.js"></script>
+
+    <script src="src/main.js"></script>
 </body>
 
 </html>
